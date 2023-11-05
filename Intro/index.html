@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Test</title>
+</head>
+<body>
+
+<!-- JS Output
+JS Statements
+JS Syntax
+JS Comments
+JS Variables
+JS Let
+JS Const
+JS Operators
+JS Arithmetic
+JS Assignment
+JS Data Types
+JS Functions
+JS Objects
+JS Events
+JS Strings
+JS String Methods
+JS String Search
+JS String Templates
+JS Numbers
+JS BigInt
+JS Number Methods
+JS Number Properties
+JS Arrays
+JS Array Methods
+JS Array Sort
+JS Array Iteration
+JS Array Const
+JS Dates
+JS Date Formats
+JS Date Get Methods
+JS Date Set Methods
+JS Math
+JS Random
+JS Booleans
+JS Comparisons
+JS If Else
+JS Switch
+JS Loop For
+JS Loop For In
+JS Loop For Of
+JS Loop While
+JS Break
+JS Iterables
+JS Sets
+JS Maps
+JS Typeof
+JS Type Conversion
+JS Bitwise
+JS RegExp
+JS Precedence
+JS Errors
+JS Scope
+JS Hoisting
+JS Strict Mode
+JS this Keyword
+JS Arrow Function
+JS Classes
+JS Modules
+JS JSON
+JS Debugging
+JS Style Guide
+JS Best Practices
+JS Mistakes
+JS Performance
+JS Reserved Words -->
+
+<!-- JS Versions
+JS Versions
+JS 2009 (ES5)
+JS 2015 (ES6)
+JS 2016
+JS 2017
+JS 2018
+JS 2019
+JS 2020
+JS 2021/2022
+JS IE / Edge
+JS History
+
+JS Objects
+Object Definitions
+Object Properties
+Object Methods
+Object Display
+Object Accessors
+Object Constructors
+Object Prototypes
+Object Iterables
+Object Sets
+Object Maps
+Object Reference
+
+JS Functions
+Function Definitions
+Function Parameters
+Function Invocation
+Function Call
+Function Apply
+Function Bind
+Function Closures
+
+JS Classes
+Class Intro
+Class Inheritance
+Class Static
+
+JS Async
+JS Callbacks
+JS Asynchronous
+JS Promises
+JS Async/Await
+
+JS HTML DOM
+DOM Intro
+DOM Methods
+DOM Document
+DOM Elements
+DOM HTML
+DOM Forms
+DOM CSS
+DOM Animations
+DOM Events
+DOM Event Listener
+DOM Navigation
+DOM Nodes
+DOM Collections
+DOM Node Lists
+
+JS Browser BOM
+JS Window
+JS Screen
+JS Location
+JS History
+JS Navigator
+JS Popup Alert
+JS Timing
+JS Cookies
+
+JS Web APIs
+Web API Intro
+Web Forms API
+Web History API
+Web Storage API
+Web Worker API
+Web Fetch API
+Web Geolocation API
+
+JS AJAX
+AJAX Intro
+AJAX XMLHttp
+AJAX Request
+AJAX Response
+AJAX XML File
+AJAX PHP
+AJAX ASP
+AJAX Database
+AJAX Applications
+AJAX Examples
+
+JS JSON
+JSON Intro
+JSON Syntax
+JSON vs XML
+JSON Data Types
+JSON Parse
+JSON Stringify
+JSON Objects
+JSON Arrays
+JSON Server
+JSON PHP
+JSON HTML
+JSON JSONP
+
+JS vs jQuery
+jQuery Selectors
+jQuery HTML
+jQuery CSS
+jQuery DOM
+
+JS Graphics
+JS Graphics
+JS Canvas
+JS Plotly
+JS Chart.js
+JS Google Chart
+JS D3.js
+
+JS Examples
+JS Examples
+JS HTML DOM
+JS HTML Input
+JS HTML Objects
+JS HTML Events
+JS Browser
+JS Editor
+JS Exercises
+JS Quiz
+JS Bootcamp
+JS Certificate
+
+JS References
+JavaScript Objects
+HTML DOM Objects -->
+
+
+
+<!-- JS Fudametals -->
+
+    <!--External JavaScript Advantages
+    Placing scripts in external files has some advantages:
+    
+    It separates HTML and code
+    It makes HTML and JavaScript easier to read and maintain
+    Cached JavaScript files can speed up page loads -->
+
+
+    <H1>Just testing my Java Script abilities!</H1>
+    <!-- <script src="text.js"></script> -->
+
+    <!-- Writing into an HTML element, using innerHTML.
+    Writing into the HTML output using document.write().
+    Writing into an alert box, using window.alert().
+    Writing into the browser console, using console.log(). -->
+
+<!-- <script>
+var x = 12
+var y= 13
+var z
+z = x + y
+console.log(z);
+    </script> -->
+
+<!-- <p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = "Hi, Java Script, I manipulated you!,<p>";
+</script> -->
+
+
+<!-- Using document.write()
+For testing purposes, it is convenient to use  -->
+<!-- Use single quotes to display the specific written words
+and no quotes to display an operation or variables -->
+
+
+
+<!-- Arrays -->
+
+<!-- When it's numbers seperate with just a comma.
+e.g [2,3,4,5,6,7,70]
+
+When its words, seperate with, double quotation marks.
+e.g ["aeroplane","car","train","ship"] -->
+
+<!-- JavaScript Array length
+The length property returns the length (size) of an array: -->
+
+<!-- Example -->
+<!-- Finds the length of an array -->
+
+<!-- <script>
+    let fruits = ["Banana", "Orange", "Apple", "Mango"];{
+    let size = fruits.length;
+    document.write(fruits.length,"<p>");
+    document.write(size);
+}
+</script> -->
+
+<!-- <script>
+// JavaScript Array toString()
+
+let fruits = ["Banana","Orange","Apple","Mango"];{
+document.write(fruits.toString());
+}
+</script> -->
+
+
+<!-- Popping and Pushing
+When you work with arrays, it is easy to remove elements and add new elements.
+
+This is what popping and pushing is:
+
+Popping items out of an array, or pushing items into an array. -->
+
+<!-- <script>
+    var fruits = ["Banana","Orange","Apple","Mango"];{
+    let goodFruits=fruits.pop();
+    document.write(goodFruits,,"<p>");
+    document.write(fruits);}
+
+    var fruits = ["Banana","Orange","Apple","Mango"];{
+    let all = fruits.push("Guava");
+    document.write(all,,"<p>");
+    document.write(fruits);}
+</script> -->
+
+
+<!-- Shifting Elements
+Shifting is equivalent to popping, but working on the first element instead of the last.
+
+JavaScript Array shift()
+The shift() method removes the first array element and "shifts" all other elements to a lower index. -->
+
+<!-- <script>
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];{
+    let all = fruits.shift();
+    document.write(all,"<p>");
+    document.write(fruits);
+}
+
+// JavaScript Array unshift()
+// The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
+
+
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];{
+    let all = fruits.unshift("Lemon");
+    document.write(all,"<p>");
+    document.write(fruits);
+}
+</script> -->
+
+<!-- JavaScript Array delete()
+Warning !
+Array elements can be deleted using the JavaScript operator delete.
+
+Using delete leaves undefined holes in the array.
+
+Use pop() or shift() instead. -->
+
+
+
+<!-- Merging (Concatenating) Arrays
+The concat() method creates a new array by merging (concatenating) existing arrays: -->
+
+<!-- <script>
+    const myGirls = ["Cecilie", "Lone"];
+    const myBoys = ["Emil", "Tobias", "Linus"];
+    const myChildren = myGirls.concat(myBoys);
+    document.write(myChildren);
+</script> -->
+
+
+<!-- Flattening an Array
+Flattening an array is the process of reducing the dimensionality of an array.
+
+The flat() method creates a new array with sub-array elements concatenated to a specified depth. -->
+<!-- <script>
+    const myArr = [[1,2],[3,4],[5,6]];
+    const newArr = myArr.flat();
+    document.write(myArr,"<p>");
+    document.write(newArr,"<p>");
+    document.write(myArr[1],"<p>");
+    document.write(newArr[1]);
+</script> -->
+
+
+<!-- Browser Support
+JavaScript Array flat() is supported in all modern browsers since January 2020:
+
+Chrome 69	Edge 79	Firefox 62	Safari 12	Opera 56
+Sep 2018	Jan 2020	Sep 2018	Sep 2018	Sep 2018
+ -->
+
+ <!-- Splicing and Slicing Arrays
+ The splice() method adds new items to an array.
+ 
+ The slice() method slices out a piece of an array.
+ 
+ JavaScript Array splice()
+ The splice() method can be used to add new items to an array: -->
+
+<!-- <script>
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    const newFruits = fruits.splice(2, 0, "Lemon", "Kiwi");
+    document.write(fruits);
+    document.write(newFruits);
+</script> -->
+
+<!-- 
+Using splice() to Remove Elements
+With clever parameter setting, you can use splice() to remove elements without leaving "holes" in the array: -->
+
+<!-- <script>
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    const fruitRemoved = fruits.splice(0, 1);
+    document.write(fruitRemoved,"<p>");
+    document.write(fruits);
+</script> -->
+
+
+<!-- JavaScript Array slice()
+The slice() method slices out a piece of an array into a new array.
+
+This example slices out a part of an array starting from array element 1 ("Orange"): -->
+
+<!-- <script>
+    const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+    const citrus = fruits.slice(1);
+    document.write(citrus,"<p>");
+</script> -->
+
+
+<!-- JavaScript Sorting Arrays
+Sorting an Array
+The sort() method sorts an array alphabetically: -->
+
+<!-- <script>
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    let some = fruits.sort();
+    document.write(some)
+</script> -->
+
+
+<!-- Reversing an Array
+The reverse() method reverses the elements in an array.
+
+You can use it to sort an array in descending order: -->
+
+<!-- <script>
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.sort();
+    let reversed = fruits.reverse();
+    document.write(reversed);
+</script> -->
+
+<!-- Numeric Sort
+By default, the sort() function sorts values as strings.
+
+This works well for strings ("Apple" comes before "Banana").
+
+However, if numbers are sorted as strings, "25" is bigger than "100", because "2" is bigger than "1".
+
+Because of this, the sort() method will produce incorrect result when sorting numbers.
+
+You can fix this by providing a compare function: -->
+
+<!-- <script>
+var points = [40, 100, 1, 5, 25, 10];{
+    let sorted = points.sort(function(a, b){return a - b});
+    document.write(sorted,"<p>");
+}
+
+ var points = [40, 100, 1, 5, 25, 10];{
+    let sorted = points.sort(function(a, b){return b - a});
+    document.write(sorted);
+}
+</script> -->
+
+
+<!-- The Fisher Yates Method
+The above example, array.sort(), is not accurate. It will favor some numbers over the others.
+
+The most popular correct method, is called the Fisher Yates shuffle, and was introduced in data science as early as 1938!
+
+
+
+
+<div  id="best"></div>
+<style>
+    #best{
+        color: white;
+        font-weight: bold;
+        background: #333;
+        margin: 0px 630px 0px 0px;
+    }
+</style>
+<script>
+// var cars = ["Mazda", "Toyota", "Honda"];
+// var bestCar = cars[1];
+// // console.log(bestCar);
+// document.getElementById("best").innerHTML = bestCar += " is the best car make.";
+
+
+//Choose the best car from the array
+// var items = [["cat","mouse","goat"],["wood","iron","rubber"],[["fish","ant","cow"],["mazda","toyota","honda"]]];
+// var bestCar = items[2][1][1];
+// document.getElementById("best").innerHTML = bestCar += " is the best car make.";
+
+
+
+//Choose the widely eaten animal from the array
+// var items = [["cat","mouse","goat"],["wood","iron","rubber"],[["fish","ant","cow"],["mazda","toyota","honda"]]];
+// var widelyEaten = items[2][0][2];
+// document.getElementById("best").innerHTML = widelyEaten += " is the most popular and widely eaten meat.";
+
+// var items = [["cat","mouse","goat"],["wood","iron","rubber"],[["fish","ant","cow"],["mazda","toyota","honda"]]];
+// if(widelyEaten = items[2][0][2]){
+//     document.getElementById("best").innerHTML = widelyEaten += " is the most popular and widely eaten meat.";
+// }
+// else if(widelyEaten = "") {
+//     document.getElementById("best").innerHTML = " This is the wrong option.";
+// }
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

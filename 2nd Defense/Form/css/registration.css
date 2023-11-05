@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    display: flex;
+    background-color: lightgrey;
+}
+/* The form styling begins here */
+.formwrapper{
+    /* height: 300hv; */
+    width: 800px;
+    background: transparent;
+    background:url(/Form/images/pexels-andreea-ch-1166644.jpg) no-repeat;
+    color: #333;
+    border-radius: 12px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.formwrapper h1{
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+}
+.formwrapper .inputbox{
+    /* position: relative; */
+    width: 100%;
+    height:50px;
+    color: #333;
+    margin: 30px 0px;
+}
+.inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    padding: 20px 45px 20px 20px;
+    border-color: #333;
+    position: relative;
+
+}
+.inputbox input::placeholder{
+    color: #333;
+}
+.btn{
+    /* width: 100%; */
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 20px 260px 0px;
+    padding: 10px 60px;
+    align-items: center;
+}
+fieldset{
+    color: #333;
+    font-size: 25px;
+    padding: 0px 40px;
+    margin: 30px auto;
+    /* border-color: #FFFFFF; */
+    backdrop-filter: blur(10px);
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.range{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+.reset{
+    height: 20px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    /* margin: 20px 260px 0px; */
+    padding: 10px;
+    /* align-items: center; */
+    line-height: 2px;
+    border: solid 1px black;
+}
+.aboutu{
+    font-size: 25px;
+}
+textarea{    font-size: 17px;
+    font-weight: bolder;
+    background: transparent;
+    backdrop-filter: blur(10px)
+}
+
+form div {
+    position: relative;
+    margin-bottom: 15px;
+  }
+
+
+/* Responsiveness begins here */
+
+@media screen and (max-width: 800px) {
+    .formwrapper{
+        width: 520px;
+    }
+    body{
+    overflow-x: hidden;
+    }
+    .btn{
+        margin: 20px 160px 0px;
+        padding: 5px 30px;
+    }
+    .maritalstatus{
+        font-size: 17px;
+    }   
+}

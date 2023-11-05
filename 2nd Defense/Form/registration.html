@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="/Form/css/form.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="formwrapper"> 
+        <form id="form">
+            <h1>Create an Account</h1>
+            <br><br>
+            <h3>Signup using social media</h3>
+            <div class="socialmedia">
+                <a class="fb" href="#"><span><i class="fa-brands fa-facebook"></i></span>Facebook</a>
+                <a class="twt" href="#"><span><i class="fa-brands fa-x-twitter"></i></span>Twitter</a>
+                <a class="ggle" href="#"><span><i class="fa-brands fa-google"></i></span>Google</a>
+            </div>
+
+            <div class="divider">
+                <span class="or">or</span>
+            </div> 
+
+
+                <div class="inputbox">
+                    <input id="email" type="email" placeholder="Email">
+                        <i class="fas fa-exclamation-circle failure-icon failed"></i>
+                        <i class="far fa-check-circle success-icon passed"></i>
+                    <span class="error"></span>
+                </div>
+
+
+                <div class="inputbox">
+                    <input id="phoneNumber" type="text" placeholder="Phone Number">
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="far fa-check-circle success-icon"></i>
+                    <span class="error"></span>
+                </div>
+                <div class="inputbox">
+                    <input id="username" type="text" placeholder="Username">
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="far fa-check-circle success-icon"></i>
+                    <span class="error"></span>
+                </div>
+                <div class="inputbox">
+                    <input id="password" type="password" placeholder="Password">
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="far fa-check-circle success-icon"></i>
+                    <span class="error"></span>
+                </div>
+
+                <div class="inputbox">
+                    <input id="comfirmPassword" type="password" placeholder="Confirm Password">
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="far fa-check-circle success-icon"></i>
+                    <span class="error"></span>
+                </div>
+                <br>
+                <div class="rememberforgot">
+                <label><input type="checkbox">Remember Me</label>
+                </div>
+
+                <button id="btn" type="submit" class="btn">Register</button>
+                <div class="registerlink">
+                 <p>Already have an account? <a href="/Form/login.html">Login</a></p>
+                 <br>
+                <a href="/Form/reg-form.html">Apply for our available jobs</a>
+                </div>
+        </form>
+    </div>
+
+    <script src="validation.js"></script>
+
+</body>
+</html>
